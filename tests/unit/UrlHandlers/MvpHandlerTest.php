@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\UrlHandlers;
+namespace Gcd\Mvp\Tests\UrlHandlers;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
 

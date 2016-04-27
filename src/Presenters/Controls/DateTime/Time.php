@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\DateTime;
+namespace Gcd\Mvp\Presenters\Controls\DateTime;
 
 require_once __DIR__ . '/../CompositeControlPresenter.php';
 
 use Rhubarb\Crown\DateTime\RhubarbTime;
-use Rhubarb\Leaf\Presenters\Controls\CompositeControlPresenter;
+use Gcd\Mvp\Presenters\Controls\CompositeControlPresenter;
 
 class Time extends CompositeControlPresenter
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Cruds;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Cruds;
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 class CrudsDetailsPresenter extends Presenter
 {

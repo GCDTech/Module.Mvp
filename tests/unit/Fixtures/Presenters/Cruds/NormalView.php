@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Cruds;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Cruds;
 
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Views\View;
 
 class NormalView extends View
 {

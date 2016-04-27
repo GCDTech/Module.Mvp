@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Dialogs;
+namespace Gcd\Mvp\Presenters\Dialogs;
 
 require_once __DIR__ . '/DialogPresenter.php';
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 class PresenterInDialogPresenter extends DialogPresenter
 {

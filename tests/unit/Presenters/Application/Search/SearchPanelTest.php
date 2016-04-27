@@ -1,12 +1,13 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\ Application\Search;
+namespace Gcd\Mvp\Tests\Presenters\ Application\Search;
 
 use Rhubarb\Crown\Request\WebRequest;
-use Rhubarb\Leaf\Presenters\Application\Search\SearchPanel;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBoxView;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
+use Rhubarb\Crown\Tests\RhubarbTestCase;
+use Gcd\Mvp\Presenters\Application\Search\SearchPanel;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBoxView;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
 use Rhubarb\Stem\Filters\Contains;
 use Rhubarb\Stem\Filters\Equals;
 use Rhubarb\Stem\Filters\Group;

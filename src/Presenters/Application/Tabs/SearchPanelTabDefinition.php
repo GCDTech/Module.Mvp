@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Tabs;
+namespace Gcd\Mvp\Presenters\Application\Tabs;
 
 require_once __DIR__ . '/TabDefinition.php';
 

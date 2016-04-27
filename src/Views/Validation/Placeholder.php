@@ -16,9 +16,9 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views\Validation;
+namespace Gcd\Mvp\Views\Validation;
 
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Views\View;
 
 class Placeholder
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters;
+namespace Gcd\Mvp\Tests\Presenters;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Exceptions\InvalidPresenterNameException;
-use Rhubarb\Leaf\Exceptions\RequiresViewReconfigurationException;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\UnitTestSwitchedPresenter;
+use Gcd\Mvp\Exceptions\InvalidPresenterNameException;
+use Gcd\Mvp\Exceptions\RequiresViewReconfigurationException;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\UnitTestSwitchedPresenter;
 
 class SwitchedPresenterTest extends RhubarbTestCase
 {

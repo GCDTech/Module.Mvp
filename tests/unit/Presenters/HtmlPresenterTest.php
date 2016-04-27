@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters;
+namespace Gcd\Mvp\Tests\Presenters;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
-use Rhubarb\Leaf\Validation\ValidatorClientSide;
+use Gcd\Mvp\Presenters\HtmlPresenter;
+use Gcd\Mvp\Validation\ValidatorClientSide;
 use Rhubarb\Stem\Models\Validation\HasValue;
 use Rhubarb\Stem\Models\Validation\Validator;
 

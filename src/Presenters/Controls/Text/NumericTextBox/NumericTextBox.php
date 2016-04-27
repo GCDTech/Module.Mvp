@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Text\NumericTextBox;
+namespace Gcd\Mvp\Presenters\Controls\Text\NumericTextBox;
 
 require_once __DIR__ . '/../TextBox/TextBox.php';
 
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBoxView;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBoxView;
 
 /**
  * @property TextBoxView $view

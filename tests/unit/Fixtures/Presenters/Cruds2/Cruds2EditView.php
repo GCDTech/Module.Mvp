@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Cruds2;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Cruds2;
 
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Views\View;
 
 class Cruds2EditView extends View
 {

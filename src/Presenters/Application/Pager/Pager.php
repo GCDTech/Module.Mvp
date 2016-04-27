@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Pager;
+namespace Gcd\Mvp\Presenters\Application\Pager;
 
 require_once __DIR__ . "/../../HtmlPresenter.php";
 
 use Rhubarb\Crown\Request\Request;
-use Rhubarb\Leaf\Exceptions\PagerOutOfBoundsException;
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
+use Gcd\Mvp\Exceptions\PagerOutOfBoundsException;
+use Gcd\Mvp\Presenters\HtmlPresenter;
 use Rhubarb\Stem\Collections\Collection;
 
 /**

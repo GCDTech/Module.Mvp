@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 require_once __DIR__ . '/Presenter.php';
 

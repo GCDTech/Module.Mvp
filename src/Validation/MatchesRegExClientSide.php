@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhubarb\Leaf\Validation;
+namespace Gcd\Mvp\Validation;
 
 use Rhubarb\Stem\Models\Validation\MatchesRegEx;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Views;
+namespace Gcd\Mvp\Tests\Views;
 
 use Rhubarb\Crown\Request\WebRequest;
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\TestView;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\TestView;
 
 class HtmlViewTest extends RhubarbTestCase
 {

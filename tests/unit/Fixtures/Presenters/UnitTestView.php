@@ -16,9 +16,9 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Views\View;
 
 class UnitTestView extends View
 {

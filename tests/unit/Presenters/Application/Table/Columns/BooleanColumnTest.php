@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\ Application\Table\Columns;
+namespace Gcd\Mvp\Tests\Presenters\ Application\Table\Columns;
 
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\BooleanColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\BooleanColumn;
 use Rhubarb\Stem\Tests\Fixtures\ModelUnitTestCase;
 use Rhubarb\Stem\Tests\Fixtures\User;
 

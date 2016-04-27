@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\DateTime;
+namespace Gcd\Mvp\Tests\Presenters\Controls\DateTime;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\DateTime\Date;
+use Gcd\Mvp\Presenters\Controls\DateTime\Date;
 
 class DateTest extends RhubarbTestCase
 {

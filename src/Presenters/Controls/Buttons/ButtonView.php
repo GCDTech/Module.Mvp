@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Buttons;
+namespace Gcd\Mvp\Presenters\Controls\Buttons;
 
 require_once __DIR__ . "/../JQueryControlView.php";
 
-use Rhubarb\Leaf\Presenters\Controls\JQueryControlView;
+use Gcd\Mvp\Presenters\Controls\JQueryControlView;
 
 class ButtonView extends JQueryControlView
 {

@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Dialogs;
+namespace Gcd\Mvp\Presenters\Dialogs;
 
 require_once __DIR__ . "/../../Views/JQueryView.php";
 
-use Rhubarb\Leaf\Views\JQueryView;
+use Gcd\Mvp\Views\JQueryView;
 
 abstract class DialogView extends JQueryView
 {

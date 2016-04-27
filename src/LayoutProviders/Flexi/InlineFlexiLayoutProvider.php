@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders\Flexi;
+namespace Gcd\Mvp\LayoutProviders\Flexi;
 
 require_once __DIR__ . '/FlexiLayoutProvider.php';
 

@@ -1,22 +1,22 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters;
+namespace Gcd\Mvp\Tests\Presenters;
 
 use Rhubarb\Crown\Layout\LayoutModule;
 use Rhubarb\Crown\Module;
 use Rhubarb\Crown\Request\Request;
 use Rhubarb\Crown\Request\WebRequest;
-use Rhubarb\Crown\Tests\Fixtures\TestCases\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
-use Rhubarb\Leaf\Presenters\ModelProvider;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Simple;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\DetailsView;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\UnitTestSwitchedPresenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\UnitTestTextBox;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\TestViewIndexPresenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestStatefulPresenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
+use Rhubarb\Crown\Tests\RhubarbTestCase;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Presenters\ModelProvider;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Simple;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\DetailsView;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\UnitTestSwitchedPresenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\UnitTestTextBox;
+use Gcd\Mvp\Tests\Fixtures\Presenters\TestViewIndexPresenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestStatefulPresenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
 
 class PresenterTest extends RhubarbTestCase
 {

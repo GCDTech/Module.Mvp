@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls;
+namespace Gcd\Mvp\Tests\Presenters\Controls;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
-use Rhubarb\Leaf\Presenters\Controls\ControlView;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Presenters\Controls\ControlView;
 
 class ControlViewTest extends RhubarbTestCase
 {

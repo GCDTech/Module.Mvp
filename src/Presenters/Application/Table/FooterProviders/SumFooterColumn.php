@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\FooterProviders;
+namespace Gcd\Mvp\Presenters\Application\Table\FooterProviders;
 
 require_once __DIR__ . '/FooterColumn.php';
 
-use Rhubarb\Leaf\Presenters\Application\Table\Table;
+use Gcd\Mvp\Presenters\Application\Table\Table;
 use Rhubarb\Stem\Aggregates\Sum;
 
 class SumFooterColumn extends FooterColumn

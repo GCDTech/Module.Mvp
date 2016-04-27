@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views;
+namespace Gcd\Mvp\Views;
 
 require_once __DIR__ . '/HtmlView.php';
 

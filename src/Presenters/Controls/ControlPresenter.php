@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls;
+namespace Gcd\Mvp\Presenters\Controls;
 
 require_once __DIR__ . "/../SpawnableByViewBridgePresenter.php";
 
 use Rhubarb\Crown\Request\Request;
 use Rhubarb\Crown\String\StringTools;
-use Rhubarb\Leaf\Presenters\SpawnableByViewBridgePresenter;
+use Gcd\Mvp\Presenters\SpawnableByViewBridgePresenter;
 
 /**
  * Provides a base class for control presenters

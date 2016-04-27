@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\Buttons;
+namespace Gcd\Mvp\Tests\Presenters\Controls\Buttons;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\Buttons\Button;
+use Gcd\Mvp\Presenters\Controls\Buttons\Button;
 
 class ButtonTest extends RhubarbTestCase
 {

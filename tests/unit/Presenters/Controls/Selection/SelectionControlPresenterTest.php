@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\Selection;
+namespace Gcd\Mvp\Tests\Presenters\Controls\Selection;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\Selection\SelectionControlPresenter;
+use Gcd\Mvp\Presenters\Controls\Selection\SelectionControlPresenter;
 use Rhubarb\Stem\Collections\Collection;
 use Rhubarb\Stem\Filters\Equals;
 use Rhubarb\Stem\Repositories\MySql\Schema\Columns\MySqlEnumColumn;

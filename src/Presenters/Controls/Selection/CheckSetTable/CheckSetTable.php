@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\CheckSetTable;
+namespace Gcd\Mvp\Presenters\Controls\Selection\CheckSetTable;
 
-use Rhubarb\Leaf\Presenters\Controls\Selection\CheckSet\CheckSet;
+use Gcd\Mvp\Presenters\Controls\Selection\CheckSet\CheckSet;
 
 /**
  * Horizontally oriented checkboxes

@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders\Flexi;
+namespace Gcd\Mvp\LayoutProviders\Flexi;
 
 require_once __DIR__ . '/../PrintableList.php';
 require_once __DIR__ . '/../PrintsContainer.php';
 
-use Rhubarb\Leaf\LayoutProviders\PrintableList;
-use Rhubarb\Leaf\LayoutProviders\PrintsContainer;
+use Gcd\Mvp\LayoutProviders\PrintableList;
+use Gcd\Mvp\LayoutProviders\PrintsContainer;
 
 class InlineList extends PrintableList implements PrintsContainer
 {

@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Text\TextArea;
+namespace Gcd\Mvp\Presenters\Controls\Text\TextArea;
 
 require_once __DIR__ . "/../TextBox/TextBoxView.php";
 
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBoxView;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBoxView;
 
 class TextAreaView extends TextBoxView
 {

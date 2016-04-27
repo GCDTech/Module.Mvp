@@ -1,13 +1,13 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\UrlHandlers;
+namespace Gcd\Mvp\Tests\UrlHandlers;
 
 use Rhubarb\Crown\Request\WebRequest;
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\Address;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\Details;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched\Thanks;
-use Rhubarb\Leaf\UrlHandlers\MvpRestHandler;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\Address;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\Details;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Switched\Thanks;
+use Gcd\Mvp\UrlHandlers\MvpRestHandler;
 use Rhubarb\Stem\Collections\Collection;
 use Rhubarb\Stem\Tests\Fixtures\User;
 

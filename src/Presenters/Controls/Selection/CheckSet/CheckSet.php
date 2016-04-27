@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\CheckSet;
+namespace Gcd\Mvp\Presenters\Controls\Selection\CheckSet;
 
 require_once __DIR__ . '/../DropDown/DropDown.php';
 
 use Rhubarb\Crown\Request\Request;
-use Rhubarb\Leaf\Presenters\Controls\Selection\DropDown\DropDown;
+use Gcd\Mvp\Presenters\Controls\Selection\DropDown\DropDown;
 
 class CheckSet extends DropDown
 {

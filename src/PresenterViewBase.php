@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf;
+namespace Gcd\Mvp;
 
 use Rhubarb\Crown\Events\EventEmitter;
 

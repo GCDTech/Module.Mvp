@@ -16,16 +16,16 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views;
+namespace Gcd\Mvp\Views;
 
 require_once __DIR__ . "/View.php";
 
 use Rhubarb\Crown\Html\ResourceLoader;
 use Rhubarb\Crown\Request\Request;
-use Rhubarb\Leaf\LayoutProviders\LayoutProvider;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Presenters\PresenterDeploymentPackage;
-use Rhubarb\Leaf\Views\Validation\Placeholder;
+use Gcd\Mvp\LayoutProviders\LayoutProvider;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Presenters\PresenterDeploymentPackage;
+use Gcd\Mvp\Views\Validation\Placeholder;
 
 /**
  * A view specifically designed to return HTML
@@ -167,7 +167,7 @@ class HtmlView extends View
      * Generates a control presenter object or parses a template for controls
      * .
      * @param string $name A string representing a field name, control name or template string.
-     * @return bool|\Rhubarb\Leaf\Presenters\Controls\ControlPresenter
+     * @return bool|\Gcd\Mvp\Presenters\Controls\ControlPresenter
      */
     protected final function getControlByName($name)
     {
@@ -294,7 +294,7 @@ HTML;
     {
         $args = func_get_args();
         array_unshift($args, $this->presenterPath);
-        call_user_func_array(['\Rhubarb\Leaf\Presenters\Presenter', "raiseEventOnViewBridge"], $args);
+        call_user_func_array(['\Gcd\Mvp\Presenters\Presenter', "raiseEventOnViewBridge"], $args);
     }
 
     public function getRestoredModel()

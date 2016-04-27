@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\DateTime;
+namespace Gcd\Mvp\Presenters\Controls\DateTime;
 
 require_once __DIR__ . "/../Text/TextBox/TextBox.php";
 
 use Rhubarb\Crown\DateTime\RhubarbDate;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
 
 class Date extends TextBox
 {

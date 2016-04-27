@@ -16,14 +16,14 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table;
+namespace Gcd\Mvp\Presenters\Application\Table;
 
 require_once __DIR__ . "/../../../Views/JQueryView.php";
 
-use Rhubarb\Leaf\Presenters\Application\Pager\EventPager;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\SortableColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\Template;
-use Rhubarb\Leaf\Views\JQueryView;
+use Gcd\Mvp\Presenters\Application\Pager\EventPager;
+use Gcd\Mvp\Presenters\Application\Table\Columns\SortableColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\Template;
+use Gcd\Mvp\Views\JQueryView;
 use Rhubarb\Stem\Decorators\DataDecorator;
 
 class TableView extends JQueryView

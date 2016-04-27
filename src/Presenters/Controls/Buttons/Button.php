@@ -16,14 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Buttons;
+namespace Gcd\Mvp\Presenters\Controls\Buttons;
 
 require_once __DIR__ . "/../JQueryControlView.php";
 
 use Rhubarb\Crown\Exceptions\ImplementationException;
-use Rhubarb\Crown\Request\Request;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
-use Rhubarb\Leaf\Validation\ValidatorClientSide;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Validation\ValidatorClientSide;
 
 class Button extends ControlPresenter
 {

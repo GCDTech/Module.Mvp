@@ -1,11 +1,11 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Views\Validation;
+namespace Gcd\Mvp\Tests\Views\Validation;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\Simple;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
-use Rhubarb\Leaf\Views\Validation\Placeholder;
+use Gcd\Mvp\Tests\Fixtures\Presenters\Simple;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
+use Gcd\Mvp\Views\Validation\Placeholder;
 
 class PlaceholderTest extends RhubarbTestCase
 {

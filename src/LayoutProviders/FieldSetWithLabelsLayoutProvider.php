@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders;
+namespace Gcd\Mvp\LayoutProviders;
 
 require_once __DIR__ . '/LayoutProvider.php';
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 class FieldSetWithLabelsLayoutProvider extends LayoutProvider
 {

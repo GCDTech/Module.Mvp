@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\Selection\DropDown;
+namespace Gcd\Mvp\Tests\Presenters\Controls\Selection\DropDown;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\Selection\DropDown\DropDown;
+use Gcd\Mvp\Presenters\Controls\Selection\DropDown\DropDown;
 
 class DropDownTest extends RhubarbTestCase
 {

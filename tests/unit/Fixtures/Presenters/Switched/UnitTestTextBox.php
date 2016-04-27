@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Switched;
 
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
 
 class UnitTestTextBox extends TextBox
 {

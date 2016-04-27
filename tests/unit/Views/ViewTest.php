@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Views;
+namespace Gcd\Mvp\Tests\Views;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\SimpleView;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Tests\Fixtures\Presenters\SimpleView;
 
 class ViewTest extends RhubarbTestCase
 {

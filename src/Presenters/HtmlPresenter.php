@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 require_once __DIR__ . "/Presenter.php";
 
-use Rhubarb\Leaf\Validation\ClientSideValidation;
-use Rhubarb\Leaf\Validation\ValidatorClientSide;
+use Gcd\Mvp\Validation\ClientSideValidation;
+use Gcd\Mvp\Validation\ValidatorClientSide;
 use Rhubarb\Stem\Models\Validation\Validation;
 use Rhubarb\Stem\Models\Validation\Validator;
 

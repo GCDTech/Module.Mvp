@@ -16,15 +16,15 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views;
+namespace Gcd\Mvp\Views;
 
 require_once __DIR__ . "/../PresenterViewBase.php";
 
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Deployment\Deployable;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Presenters\PresenterDeploymentPackage;
-use Rhubarb\Leaf\PresenterViewBase;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Presenters\PresenterDeploymentPackage;
+use Gcd\Mvp\PresenterViewBase;
 use Rhubarb\Stem\Models\Model;
 
 /**

@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls;
+namespace Gcd\Mvp\Presenters\Controls;
 
 require_once __DIR__ . "/../../Views/SpawnableByViewBridgeView.php";
 
-use Rhubarb\Leaf\Views\SpawnableByViewBridgeView;
+use Gcd\Mvp\Views\SpawnableByViewBridgeView;
 
 class ControlView extends SpawnableByViewBridgeView
 {

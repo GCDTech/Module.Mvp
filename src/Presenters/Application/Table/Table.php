@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table;
+namespace Gcd\Mvp\Presenters\Application\Table;
 
 require_once __DIR__ . "/../../HtmlPresenter.php";
 
@@ -24,14 +24,14 @@ use Rhubarb\Crown\DataStreams\CsvStream;
 use Rhubarb\Crown\Exceptions\ForceResponseException;
 use Rhubarb\Crown\Response\FileResponse;
 use Rhubarb\Crown\String\StringTools;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\ModelColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\PresenterColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\SortableColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\TableColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\Template;
-use Rhubarb\Leaf\Presenters\Application\Table\FooterProviders\FooterProvider;
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Application\Table\Columns\ModelColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\PresenterColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\SortableColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\TableColumn;
+use Gcd\Mvp\Presenters\Application\Table\Columns\Template;
+use Gcd\Mvp\Presenters\Application\Table\FooterProviders\FooterProvider;
+use Gcd\Mvp\Presenters\HtmlPresenter;
+use Gcd\Mvp\Presenters\Presenter;
 use Rhubarb\Stem\Collections\Collection;
 use Rhubarb\Stem\Decorators\DataDecorator;
 use Rhubarb\Stem\Filters\Filter;

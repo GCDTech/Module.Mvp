@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 require_once __DIR__ . "/../Views/View.php";
 
-use Rhubarb\Leaf\Views\HtmlView;
+use Gcd\Mvp\Views\HtmlView;
 
 /**
  * This simple view presents a single sub presenter for the 'step' that should

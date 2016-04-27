@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Presenters\Forms\Form;
+use Gcd\Mvp\Presenters\Forms\Form;
 
 class TestViewIndexPresenter extends Form
 {

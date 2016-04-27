@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Validation;
+namespace Gcd\Mvp\Validation;
 
 use Rhubarb\Stem\Models\Validation\Validation;
 
@@ -67,12 +67,12 @@ trait ClientSideValidation
 
     public final static function fromModelValidation(Validation $validation)
     {
-        if (in_array("Rhubarb\Leaf\Validation\ClientSideValidation", class_uses($validation))) {
+        if (in_array("Gcd\Mvp\Validation\ClientSideValidation", class_uses($validation))) {
             return $validation;
         }
 
         $type = basename(str_replace("\\", "/", get_class($validation)));
-        $clientSideClass = "Rhubarb\Leaf\Validation\\" . $type . "ClientSide";
+        $clientSideClass = "Gcd\Mvp\Validation\\" . $type . "ClientSide";
 
         if (class_exists($clientSideClass)) {
             return call_user_func([$clientSideClass, "cloneAndCopySettingsFromModelValidation"], $validation);

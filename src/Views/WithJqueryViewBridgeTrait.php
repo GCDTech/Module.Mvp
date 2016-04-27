@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views;
+namespace Gcd\Mvp\Views;
 
 trait WithJqueryViewBridgeTrait
 {

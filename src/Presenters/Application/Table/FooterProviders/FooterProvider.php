@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\FooterProviders;
+namespace Gcd\Mvp\Presenters\Application\Table\FooterProviders;
 
-use Rhubarb\Leaf\Presenters\Application\Table\Table;
+use Gcd\Mvp\Presenters\Application\Table\Table;
 
 /**
  * A simple abstract to implement if you want a table footer.

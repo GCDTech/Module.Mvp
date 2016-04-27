@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Views;
+namespace Gcd\Mvp\Views;
 
 /**
  * Provides basic support for receiving errors from a presenter.

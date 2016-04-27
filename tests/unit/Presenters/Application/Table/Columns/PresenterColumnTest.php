@@ -1,12 +1,12 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\ Application\Table\Columns;
+namespace Gcd\Mvp\Tests\Presenters\ Application\Table\Columns;
 
-use Rhubarb\Leaf\Presenters\Application\Table\Columns\PresenterColumn;
-use Rhubarb\Leaf\Presenters\Application\Table\Table;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Presenters\Application\Table\Columns\PresenterColumn;
+use Gcd\Mvp\Presenters\Application\Table\Table;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Views\View;
 use Rhubarb\Stem\Tests\Fixtures\Example;
 use Rhubarb\Stem\Tests\Fixtures\ModelUnitTestCase;
 

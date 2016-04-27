@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls;
+namespace Gcd\Mvp\Presenters\Controls;
 
 require_once __DIR__ . '/CompositeControlPresenter.php';
 
