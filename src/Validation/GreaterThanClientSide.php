@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Validation;
+namespace Gcd\Mvp\Validation;
 
 use Rhubarb\Stem\Models\Validation\GreaterThan;
 

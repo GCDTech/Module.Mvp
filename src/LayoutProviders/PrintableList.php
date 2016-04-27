@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders;
+namespace Gcd\Mvp\LayoutProviders;
 
 /**
  * A simple container for a collection of objects that need to be printed in sequence.

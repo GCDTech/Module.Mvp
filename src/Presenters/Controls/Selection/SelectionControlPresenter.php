@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection;
+namespace Gcd\Mvp\Presenters\Controls\Selection;
 
 require_once __DIR__ . "/../ControlPresenter.php";
 
 use Rhubarb\Crown\Context;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
 use Rhubarb\Stem\Collections\Collection;
 use Rhubarb\Stem\Models\Model;
 use Rhubarb\Stem\Repositories\MySql\Schema\Columns\MySqlEnumColumn;

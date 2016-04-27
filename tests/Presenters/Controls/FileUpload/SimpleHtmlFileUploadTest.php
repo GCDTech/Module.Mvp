@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\FileUpload;
+namespace Gcd\Mvp\Tests\Presenters\Controls\FileUpload;
 
 use Rhubarb\Crown\Context;
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\FileUpload\SimpleHtmlFileUpload;
+use Gcd\Mvp\Presenters\Controls\FileUpload\SimpleHtmlFileUpload;
 
 class SimpleHtmlFileUploadTest extends RhubarbTestCase
 {

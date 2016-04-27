@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Validation;
+namespace Gcd\Mvp\Tests\Validation;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Validation\ClientSideValidation;
-use Rhubarb\Leaf\Validation\EqualToClientSide;
+use Gcd\Mvp\Validation\ClientSideValidation;
+use Gcd\Mvp\Validation\EqualToClientSide;
 use Rhubarb\Stem\Models\Validation\EqualTo;
 
 class ClientSideValidationTest extends RhubarbTestCase

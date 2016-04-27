@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders\Flexi;
+namespace Gcd\Mvp\LayoutProviders\Flexi;
 
 require_once __DIR__ . '/../LayoutProvider.php';
 
-use Rhubarb\Leaf\LayoutProviders\LayoutProvider;
-use Rhubarb\Leaf\LayoutProviders\PrintsContainer;
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\LayoutProviders\LayoutProvider;
+use Gcd\Mvp\LayoutProviders\PrintsContainer;
+use Gcd\Mvp\Presenters\Presenter;
 
 class FlexiLayoutProvider extends LayoutProvider
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Cruds;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Cruds;
 
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
+use Gcd\Mvp\Presenters\HtmlPresenter;
 
 class NormalPresenter extends HtmlPresenter
 {

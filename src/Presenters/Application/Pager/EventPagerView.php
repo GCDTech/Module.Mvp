@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Pager;
+namespace Gcd\Mvp\Presenters\Application\Pager;
 
 require_once __DIR__ . '/PagerView.php';
 

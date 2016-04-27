@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
 interface ISimpleView
 {

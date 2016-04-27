@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 use Rhubarb\Crown\Modelling\ModelState;
 

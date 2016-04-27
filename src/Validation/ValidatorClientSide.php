@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Validation;
+namespace Gcd\Mvp\Validation;
 
 use Rhubarb\Stem\Models\Validation\Validator;
 
@@ -47,7 +47,7 @@ class ValidatorClientSide extends Validator
         $validationStructures = [];
 
         foreach ($this->validations as $validation) {
-            if (!in_array("Rhubarb\Leaf\Validation\ClientSideValidation", self::nestedClassUses($validation))) {
+            if (!in_array("Gcd\Mvp\Validation\ClientSideValidation", self::nestedClassUses($validation))) {
                 $validation = ClientSideValidation::fromModelValidation($validation);
             }
 

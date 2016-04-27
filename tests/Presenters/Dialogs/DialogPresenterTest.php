@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Dialogs;
+namespace Gcd\Mvp\Tests\Presenters\Dialogs;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Dialogs\DialogPresenter;
+use Gcd\Mvp\Presenters\Dialogs\DialogPresenter;
 
 class DialogPresenterTest extends RhubarbTestCase
 {

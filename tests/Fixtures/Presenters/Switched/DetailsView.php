@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Switched;
 
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Views\View;
 
 class DetailsView extends View
 {

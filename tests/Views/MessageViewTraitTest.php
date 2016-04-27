@@ -1,11 +1,11 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Views;
+namespace Gcd\Mvp\Tests\Views;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
-use Rhubarb\Leaf\Views\MessageViewTrait;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
+use Gcd\Mvp\Views\MessageViewTrait;
 
 class MessageViewTraitTest extends RhubarbTestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 /**
  * A second step of a multi step test.

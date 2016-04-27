@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Tabs;
+namespace Gcd\Mvp\Presenters\Application\Tabs;
 
 require_once __DIR__ . '/../../../Views/JQueryView.php';
 
-use Rhubarb\Leaf\Views\JQueryView;
+use Gcd\Mvp\Views\JQueryView;
 
 class TabsView extends JQueryView
 {

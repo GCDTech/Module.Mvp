@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 require_once __DIR__ . "/../PresenterViewBase.php";
 
@@ -30,10 +30,10 @@ use Rhubarb\Crown\Response\GeneratesResponse;
 use Rhubarb\Crown\Response\HtmlResponse;
 use Rhubarb\Crown\Response\Response;
 use Rhubarb\Crown\String\StringTools;
-use Rhubarb\Leaf\Exceptions\NoViewException;
-use Rhubarb\Leaf\Exceptions\RequiresViewReconfigurationException;
-use Rhubarb\Leaf\PresenterViewBase;
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Exceptions\NoViewException;
+use Gcd\Mvp\Exceptions\RequiresViewReconfigurationException;
+use Gcd\Mvp\PresenterViewBase;
+use Gcd\Mvp\Views\View;
 use Rhubarb\Scaffolds\AuthenticationWithRoles\PermissionException;
 use Rhubarb\Stem\Exceptions\ModelConsistencyValidationException;
 use Rhubarb\Stem\Models\Model;

@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Search;
+namespace Gcd\Mvp\Presenters\Application\Search;
 
 require_once __DIR__ . "/../../HtmlPresenter.php";
 
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
-use Rhubarb\Leaf\Presenters\ModelProvider;
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\HtmlPresenter;
+use Gcd\Mvp\Presenters\ModelProvider;
+use Gcd\Mvp\Presenters\Presenter;
 use Rhubarb\Stem\Filters\Group;
 
 /**

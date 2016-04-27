@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Switched;
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 class Details extends Presenter
 {

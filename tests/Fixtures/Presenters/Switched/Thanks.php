@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Switched;
 
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\TestView;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Tests\Fixtures\Presenters\TestView;
 
 class Thanks extends Presenter
 {

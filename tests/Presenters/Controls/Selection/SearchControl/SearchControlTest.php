@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Controls\Selection\SearchControl;
+namespace Gcd\Mvp\Tests\Presenters\Controls\Selection\SearchControl;
 
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Controls\Selection\SearchControl\SearchControl;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
+use Gcd\Mvp\Presenters\Controls\Selection\SearchControl\SearchControl;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
 
 class SearchControlTest extends RhubarbTestCase
 {

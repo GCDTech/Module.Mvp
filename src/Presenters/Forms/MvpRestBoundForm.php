@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Forms;
+namespace Gcd\Mvp\Presenters\Forms;
 
 require_once __DIR__ . "/Form.php";
 require_once __DIR__ . "/../CreatePresentersFromSchemaTrait.php";
 
 use Rhubarb\Crown\Context;
-use Rhubarb\Leaf\Presenters\CreatePresentersFromSchemaTrait;
+use Gcd\Mvp\Presenters\CreatePresentersFromSchemaTrait;
 
 /**
  * Provides an automatic way for a form to get the model object provided by the MvpRestHandler

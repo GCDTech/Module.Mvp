@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Dialogs;
+namespace Gcd\Mvp\Presenters\Dialogs;
 
 require_once __DIR__ . "/../HtmlPresenter.php";
 require_once __DIR__ . "/../ModelProvider.php";
 
-use Rhubarb\Leaf\Presenters\HtmlPresenter;
-use Rhubarb\Leaf\Presenters\ModelProvider;
+use Gcd\Mvp\Presenters\HtmlPresenter;
+use Gcd\Mvp\Presenters\ModelProvider;
 
 abstract class DialogPresenter extends HtmlPresenter
 {

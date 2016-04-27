@@ -16,9 +16,9 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Dialogs;
+namespace Gcd\Mvp\Presenters\Dialogs;
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 
 class PresenterInDialogView extends DialogView
 {

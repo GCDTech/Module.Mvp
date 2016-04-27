@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Tabs;
+namespace Gcd\Mvp\Presenters\Application\Tabs;
 
 require_once __DIR__ . '/TabsPresenter.php';
 
-use Rhubarb\Leaf\Presenters\Application\Search\SearchPanel;
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Application\Search\SearchPanel;
+use Gcd\Mvp\Presenters\Presenter;
 
 class SearchPanelTabsPresenter extends TabsPresenter
 {

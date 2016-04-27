@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Presenters\Controls\ControlView;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Presenters\Controls\ControlView;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
 
 class TestCompositeView extends ControlView
 {

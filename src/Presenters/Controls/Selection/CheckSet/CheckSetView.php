@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\CheckSet;
+namespace Gcd\Mvp\Presenters\Controls\Selection\CheckSet;
 
 require_once __DIR__ . '/../Sets/SetSelectionControlView.php';
 
-use Rhubarb\Leaf\Presenters\Controls\Selection\Sets\SetSelectionControlView;
+use Gcd\Mvp\Presenters\Controls\Selection\Sets\SetSelectionControlView;
 
 class CheckSetView extends SetSelectionControlView
 {

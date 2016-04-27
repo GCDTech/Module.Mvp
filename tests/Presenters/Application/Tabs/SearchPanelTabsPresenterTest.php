@@ -1,14 +1,14 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\Application\Tabs;
+namespace Gcd\Mvp\Tests\Presenters\Application\Tabs;
 
 use Rhubarb\Crown\Request\WebRequest;
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Application\Tabs\SearchPanelTabDefinition;
-use Rhubarb\Leaf\Presenters\Application\Tabs\SearchPanelTabsPresenter;
-use Rhubarb\Leaf\Presenters\Application\Tabs\SearchResultsTabDefinition;
-use Rhubarb\Leaf\Tests\Fixtures\Presenters\UnitTestView;
-use Rhubarb\Leaf\Tests\Presenters\ Application\Search\UnitTestSearchPanel;
+use Gcd\Mvp\Presenters\Application\Tabs\SearchPanelTabDefinition;
+use Gcd\Mvp\Presenters\Application\Tabs\SearchPanelTabsPresenter;
+use Gcd\Mvp\Presenters\Application\Tabs\SearchResultsTabDefinition;
+use Gcd\Mvp\Tests\Fixtures\Presenters\UnitTestView;
+use Gcd\Mvp\Tests\Presenters\ Application\Search\UnitTestSearchPanel;
 
 class SearchPanelTabsPresenterTest extends RhubarbTestCase
 {

@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\FileUpload;
+namespace Gcd\Mvp\Presenters\Controls\FileUpload;
 
 require_once __DIR__ . "/../ControlView.php";
 
-use Rhubarb\Leaf\Presenters\Controls\ControlView;
+use Gcd\Mvp\Presenters\Controls\ControlView;
 
 class SimpleHtmlFileUploadView extends ControlView
 {

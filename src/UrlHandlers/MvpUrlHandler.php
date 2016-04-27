@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\UrlHandlers;
+namespace Gcd\Mvp\UrlHandlers;
 
 use Rhubarb\Crown\UrlHandlers\NamespaceMappedUrlHandler;
 

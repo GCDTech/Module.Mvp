@@ -1,12 +1,12 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Presenters\ Application\Tabs;
+namespace Gcd\Mvp\Tests\Presenters\ Application\Tabs;
 
 use Rhubarb\Crown\Request\WebRequest;
 use Rhubarb\Crown\Tests\RhubarbTestCase;
-use Rhubarb\Leaf\Presenters\Application\Tabs\TabDefinition;
-use Rhubarb\Leaf\Presenters\Application\Tabs\TabsPresenter;
-use Rhubarb\Leaf\Presenters\Application\Tabs\TabsView;
+use Gcd\Mvp\Presenters\Application\Tabs\TabDefinition;
+use Gcd\Mvp\Presenters\Application\Tabs\TabsPresenter;
+use Gcd\Mvp\Presenters\Application\Tabs\TabsView;
 
 class TabsPresenterTest extends RhubarbTestCase
 {

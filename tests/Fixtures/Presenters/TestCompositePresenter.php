@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Presenters\Controls\CompositeControlPresenter;
+use Gcd\Mvp\Presenters\Controls\CompositeControlPresenter;
 
 class TestCompositePresenter extends CompositeControlPresenter
 {

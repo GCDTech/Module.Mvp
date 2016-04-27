@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\DateTime;
+namespace Gcd\Mvp\Presenters\Controls\DateTime;
 
 require_once __DIR__ . "/../Text/TextBox/TextBoxView.php";
 
 use Rhubarb\Crown\Html\ResourceLoader;
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBoxView;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBoxView;
 
 class DateView extends TextBoxView
 {

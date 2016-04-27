@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Pager;
+namespace Gcd\Mvp\Presenters\Application\Pager;
 
 require_once __DIR__ . "/../../../Views/HtmlView.php";
 
 use Rhubarb\Crown\Context;
-use Rhubarb\Leaf\Views\HtmlView;
+use Gcd\Mvp\Views\HtmlView;
 
 class PagerView extends HtmlView
 {

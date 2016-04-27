@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls;
+namespace Gcd\Mvp\Presenters\Controls;
 
 /**
  * Provides a method for Presenters to compile the view bridge spawn settings of themselves and any

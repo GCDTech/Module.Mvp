@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\FileUpload;
+namespace Gcd\Mvp\Presenters\Controls\FileUpload;
 
 require_once __DIR__ . '/MultipleHtmlFileUploadView.php';
 

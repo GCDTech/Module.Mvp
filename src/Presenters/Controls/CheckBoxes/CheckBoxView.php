@@ -16,15 +16,15 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\CheckBoxes;
+namespace Gcd\Mvp\Presenters\Controls\CheckBoxes;
 
 require_once __DIR__ . "/../ControlView.php";
 require_once __DIR__ . "/../../../Views/WithViewBridgeTrait.php";
 require_once __DIR__ . "/../../../Views/SpawnableByViewBridgeViewTrait.php";
 
-use Rhubarb\Leaf\Presenters\Controls\ControlView;
-use Rhubarb\Leaf\Views\SpawnableByViewBridgeViewTrait;
-use Rhubarb\Leaf\Views\WithViewBridgeTrait;
+use Gcd\Mvp\Presenters\Controls\ControlView;
+use Gcd\Mvp\Views\SpawnableByViewBridgeViewTrait;
+use Gcd\Mvp\Views\WithViewBridgeTrait;
 
 class CheckBoxView extends ControlView
 {

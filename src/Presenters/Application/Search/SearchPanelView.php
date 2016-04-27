@@ -16,13 +16,13 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Search;
+namespace Gcd\Mvp\Presenters\Application\Search;
 
 require_once __DIR__ . "/../../../Views/HtmlView.php";
 
-use Rhubarb\Leaf\Presenters\Controls\Buttons\Button;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
-use Rhubarb\Leaf\Views\HtmlView;
+use Gcd\Mvp\Presenters\Controls\Buttons\Button;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Views\HtmlView;
 
 class SearchPanelView extends HtmlView
 {

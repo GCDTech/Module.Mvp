@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Dialogs;
+namespace Gcd\Mvp\Presenters\Dialogs;
 
 require_once __DIR__ . '/DialogPresenter.php';
 require_once __DIR__ . '/../CreatePresentersFromSchemaTrait.php';
 
-use Rhubarb\Leaf\Presenters\CreatePresentersFromSchemaTrait;
+use Gcd\Mvp\Presenters\CreatePresentersFromSchemaTrait;
 use Rhubarb\Stem\Schema\SolutionSchema;
 
 abstract class ModelDialogPresenter extends DialogPresenter

@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders;
+namespace Gcd\Mvp\LayoutProviders;
 
 /**
  * A layout provider translates a data structure of text and objects into an HTML structure.
@@ -56,7 +56,7 @@ abstract class LayoutProvider
         $this->items = $items;
     }
 
-    private static $defaultLayoutProviderClassName = '\Rhubarb\Leaf\LayoutProviders\FieldSetWithLabelsLayoutProvider';
+    private static $defaultLayoutProviderClassName = '\Gcd\Mvp\LayoutProviders\FieldSetWithLabelsLayoutProvider';
 
     public static function setDefaultLayoutProviderClassName($defaultLayoutProviderClassName)
     {

@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\DropDown;
+namespace Gcd\Mvp\Presenters\Controls\Selection\DropDown;
 
 require_once __DIR__ . "/DropDown.php";
 

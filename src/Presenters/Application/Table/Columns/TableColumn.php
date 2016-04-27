@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\Columns;
+namespace Gcd\Mvp\Presenters\Application\Table\Columns;
 
 use Rhubarb\Stem\Models\Model;
 

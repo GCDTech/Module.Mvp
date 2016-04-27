@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\Sets;
+namespace Gcd\Mvp\Presenters\Controls\Selection\Sets;
 
 require_once __DIR__ . '/../SelectionControlView.php';
 
-use Rhubarb\Leaf\Presenters\Controls\Selection\SelectionControlView;
+use Gcd\Mvp\Presenters\Controls\Selection\SelectionControlView;
 
 abstract class SetSelectionControlView extends SelectionControlView
 {

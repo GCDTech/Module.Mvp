@@ -16,9 +16,9 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\FooterProviders;
+namespace Gcd\Mvp\Presenters\Application\Table\FooterProviders;
 
-use Rhubarb\Leaf\Presenters\Application\Table\Table;
+use Gcd\Mvp\Presenters\Application\Table\Table;
 
 abstract class FooterColumn
 {

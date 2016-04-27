@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls;
+namespace Gcd\Mvp\Presenters\Controls;
 
 require_once __DIR__ . '/ControlPresenter.php';
 require_once __DIR__ . '/../ModelProvider.php';
 
-use Rhubarb\Leaf\Presenters\ModelProvider;
+use Gcd\Mvp\Presenters\ModelProvider;
 
 class CompositeControlPresenter extends ControlPresenter
 {

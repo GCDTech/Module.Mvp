@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection;
+namespace Gcd\Mvp\Presenters\Controls\Selection;
 
 require_once __DIR__ . "/../JQueryControlView.php";
 
-use Rhubarb\Leaf\Presenters\Controls\JQueryControlView;
+use Gcd\Mvp\Presenters\Controls\JQueryControlView;
 
 class SelectionControlView extends JQueryControlView
 {

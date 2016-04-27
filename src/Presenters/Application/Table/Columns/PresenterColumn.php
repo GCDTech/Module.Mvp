@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\Columns;
+namespace Gcd\Mvp\Presenters\Application\Table\Columns;
 
 require_once __DIR__ . '/TableColumn.php';
 require_once __DIR__ . '/../../../Presenter.php';
 
-use Rhubarb\Leaf\Presenters\Presenter;
+use Gcd\Mvp\Presenters\Presenter;
 use Rhubarb\Stem\Models\Model;
 
 /**

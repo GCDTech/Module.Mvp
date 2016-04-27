@@ -1,10 +1,10 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Switched;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Switched;
 
-use Rhubarb\Leaf\Presenters\ModelProvider;
-use Rhubarb\Leaf\Presenters\Presenter;
-use Rhubarb\Leaf\Presenters\SwitchedPresenter;
+use Gcd\Mvp\Presenters\ModelProvider;
+use Gcd\Mvp\Presenters\Presenter;
+use Gcd\Mvp\Presenters\SwitchedPresenter;
 
 class UnitTestSwitchedPresenter extends SwitchedPresenter
 {

@@ -16,12 +16,12 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\FileUpload;
+namespace Gcd\Mvp\Presenters\Controls\FileUpload;
 
 require_once __DIR__ . "/../ControlPresenter.php";
 
 use Rhubarb\Crown\Context;
-use Rhubarb\Leaf\Presenters\Controls\ControlPresenter;
+use Gcd\Mvp\Presenters\Controls\ControlPresenter;
 
 class SimpleHtmlFileUpload extends ControlPresenter
 {

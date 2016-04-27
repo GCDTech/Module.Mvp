@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters;
+namespace Gcd\Mvp\Presenters;
 
 /**
  * Replaces the default bubbling up behaviour of the GetBoundData and SetBoundData events by

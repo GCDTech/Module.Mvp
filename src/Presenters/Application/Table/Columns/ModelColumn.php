@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Application\Table\Columns;
+namespace Gcd\Mvp\Presenters\Application\Table\Columns;
 
 require_once __DIR__ . "/TableColumn.php";
 require_once __DIR__ . "/SortableColumn.php";
@@ -85,15 +85,15 @@ class ModelColumn extends TableColumn implements SortableColumn
     public static function createTableColumnForSchemaColumn(Column $column, $label)
     {
         if ($column instanceof TimeColumn) {
-            new \Rhubarb\Leaf\Presenters\Application\Table\Columns\TimeColumn($column->columnName, $label);
+            new \Gcd\Mvp\Presenters\Application\Table\Columns\TimeColumn($column->columnName, $label);
         }
 
         if ($column instanceof DateColumn || $column instanceof MySqlDateTimeColumn) {
-            return new \Rhubarb\Leaf\Presenters\Application\Table\Columns\DateColumn($column->columnName, $label);
+            return new \Gcd\Mvp\Presenters\Application\Table\Columns\DateColumn($column->columnName, $label);
         }
 
         if ($column instanceof BooleanColumn) {
-            return new \Rhubarb\Leaf\Presenters\Application\Table\Columns\BooleanColumn($column->columnName, $label);
+            return new \Gcd\Mvp\Presenters\Application\Table\Columns\BooleanColumn($column->columnName, $label);
         }
 
         $tableColumn = new ModelColumn($column->columnName, $label);

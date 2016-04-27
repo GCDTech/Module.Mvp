@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Exceptions;
+namespace Gcd\Mvp\Exceptions;
 
 use Rhubarb\Crown\Exceptions\RhubarbException;
 

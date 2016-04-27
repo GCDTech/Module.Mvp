@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters\Cruds;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters\Cruds;
 
-use Rhubarb\Leaf\Views\HtmlView;
+use Gcd\Mvp\Views\HtmlView;
 use Rhubarb\Patterns\Mvp\Crud\ModelForm\ModelFormPresenter;
 
 class CrudsItemPresenter extends ModelFormPresenter

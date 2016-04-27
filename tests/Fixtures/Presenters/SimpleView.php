@@ -1,9 +1,9 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Presenters\Controls\Text\TextBox\TextBox;
-use Rhubarb\Leaf\Views\View;
+use Gcd\Mvp\Presenters\Controls\Text\TextBox\TextBox;
+use Gcd\Mvp\Views\View;
 
 class SimpleView extends View implements ISimpleView
 {

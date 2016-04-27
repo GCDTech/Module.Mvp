@@ -1,8 +1,8 @@
 <?php
 
-namespace Rhubarb\Leaf\Tests\Fixtures\Presenters;
+namespace Gcd\Mvp\Tests\Fixtures\Presenters;
 
-use Rhubarb\Leaf\Views\HtmlView;
+use Gcd\Mvp\Views\HtmlView;
 
 class TestView extends HtmlView
 {

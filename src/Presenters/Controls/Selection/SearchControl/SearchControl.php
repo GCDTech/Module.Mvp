@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\SearchControl;
+namespace Gcd\Mvp\Presenters\Controls\Selection\SearchControl;
 
 require_once __DIR__ . "/../SelectionControlPresenter.php";
 
-use Rhubarb\Leaf\Presenters\Controls\Selection\SelectionControlPresenter;
+use Gcd\Mvp\Presenters\Controls\Selection\SelectionControlPresenter;
 use Rhubarb\Stem\Models\Model;
 
 /**

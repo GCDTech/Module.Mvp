@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\LayoutProviders;
+namespace Gcd\Mvp\LayoutProviders;
 
 /**
  * An empty interface used only to signal to the layout provider system that the

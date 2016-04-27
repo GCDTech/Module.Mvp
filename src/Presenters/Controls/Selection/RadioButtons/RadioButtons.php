@@ -16,11 +16,11 @@
  *  limitations under the License.
  */
 
-namespace Rhubarb\Leaf\Presenters\Controls\Selection\RadioButtons;
+namespace Gcd\Mvp\Presenters\Controls\Selection\RadioButtons;
 
 require_once __DIR__ . '/../SelectionControlPresenter.php';
 
-use Rhubarb\Leaf\Presenters\Controls\Selection\SelectionControlPresenter;
+use Gcd\Mvp\Presenters\Controls\Selection\SelectionControlPresenter;
 
 class RadioButtons extends SelectionControlPresenter
 {
